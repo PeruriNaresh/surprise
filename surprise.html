@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./surprise.js" defer></script>
+    <style>
+        body
+        {
+            background-color: black;
+        }
+        #container
+        {
+            width: 90%;
+            height: 80vh;
+            background-color: rgb(43, 42, 42);
+            transform: translateY(10vh);
+        }
+        #button
+        {
+            transform: translateY(10vh); 
+            height: 7vh; 
+            border:0px;
+            border-radius: 10px; 
+            outline: 0px; color: red; 
+            background-color: black;
+            box-shadow: 0vh 0vh 20px red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #countdown
+        {
+            color: azure;
+            transform: translateY(20vh);
+            font-family: Arial, Helvetica, sans-serif;
+            filter: drop-shadow(0px 0px 10px red);
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body id="video">
+    <center>
+        <div id="container">
+            <input id="button" type="button" value="press me to see a surprise" onclick="sur()">
+            <br><br>
+            <h1 id="countdown">HELLO THERE HOW ARE YOU</h1>
+        </div>
+    </center>
+</body>
+</html>
